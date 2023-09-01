@@ -19,5 +19,8 @@ val fill : unfinalized t -> content -> unfinalized t
 (* Finalize the structure *)
 val finalize : unfinalized t -> finalized t
 
+(* Show the current state *)
+val show_current_state : _ t -> unit
+
 (* Methods to show the content *)
 val show : finalized t -> unit
