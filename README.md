@@ -2,7 +2,7 @@
 
 ## Motivation
 
-Over the years, I've seen a few pattern of GADT usecases. For instance,
+Over the years, I've seen a few patterns of GADT usecases. For instance,
 a stack based and typed language like
 [Michelson](https://tezos.gitlab.io/active/michelson.html). In particular, the
 GADT offers the safety, at compile-time, that an instruction with two operands
@@ -57,7 +57,7 @@ let () =
 ## Install & Test
 
 ```
-opam switch create ./ 5.1.0
+opam switch create ./ 5.0.0
 opam install dune
 dune build
 dune exec ./bin/main.exe
