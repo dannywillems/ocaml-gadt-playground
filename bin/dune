@@ -1,0 +1,4 @@
+(executable
+ (public_name gadt_playground)
+ (name main)
+ (libraries gadt_playground))
